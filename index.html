@@ -35,12 +35,12 @@
         <section class="section" id="profile">
           <h1 class="section-title">Profile</h1>
           <img id="avatar" src="./myphoto.JPG" alt="johnymars avatar">
-          <section class="section-item">
+          <div class="section-item">
             <ul>
               <li id="name">IVAN</li>
               <li id="surname">MARZAN</li>
             </ul>
-          </section>
+          </div>
         </section>
         <section class="section" id="summary">
           <h2 class="section-title">About me</h2>
@@ -70,13 +70,12 @@
         <section class="section" id="code">
           <h2 class="section-title">Code</h2>
           <div>
-            <p class="code-p">&lt;?php</p>
+            <code>
             <p class="code-p">include ("blocks/bd.php");</p>
             <p class="code-p">$result = mysql_query ("SELECT title, meta_d, meta_k, text FROM settings WHERE page='index'",$db);</p>
             <p class="code-p">$myrow = mysql_fetch_array($result);</p>
-            <p class="code-p">?&gt</p>
+            </code>
           </div>
-          </code>
         </section>
         <section class="section" id="courses">
           <h2 class="section-title">Courses</h2>
