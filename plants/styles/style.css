@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 3870px;
+    background: #FFFFFF;;
+    scroll-behavior: smooth;  /*плавная прокрутка*/
+}
+header {
+    position: absolute;
+    width: 1440px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+    background: #EDF2EC;
+}
+.navbar {
+    position: absolute;
+    display: flex;
+    align-items: center; 
+    width: 1220px;
+    height: 50px;
+    left: 111px;
+    top: 42px;
+}
+.nav {
+    position: absolute;
+    width: 452px;
+    height: 50px;
+    left: 688.83px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item a {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    order: 5;
+    margin-left: -40px;
+    text-decoration: none;
+/* identical to box height, or 312% */
+    color: #010201;
+}
+.nav  .nav-item:nth-child(5) {
+    order: 1;
+}
+.nav  .nav-item:nth-child(2) {
+    order: 2;
+} 
+.nav  .nav-item:nth-child(4) {
+    order: 3;
+} 
+.nav  .nav-item:nth-child(1) {
+    order: 4;
+} 
+.nav  .nav-item:nth-child(3) {
+    order: 5;
+}
+.logo {
+    position: absolute;
+    width: 79.17px;
+    height: 21.04px;
+}
+.logo_vector {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+} 
+#vector1 {
+    position: absolute;
+    width: 9.92px;
+    height: 17.28px;
+    bottom: 0.05px;
+    top: 2.66px;
+}
+#vector2 {
+    position: absolute;
+    left: 1px;
+    width: 19px;
+    height: 20px;
+}
+#logo_plants {
+    position: absolute;
+    width: 58.13px;
+    height: 17px;
+    right: 0;
+    bottom: 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+color: #000000;
+}
+
+#welcome {
+    position: absolute;
+    justify-content: space-between;
+    width: 1440px;
+    height: 532px;
+    left: 0px;
+    top: 134px;
+    background: #EDF2EC;
+}
+.welcome_section {
+    position: absolute;
+    width: 1222px;
+    height: 407.36px;
+    left: 109px;
+    top: 62px;
+}
+.leafs {
+    position: absolute;
+    width: 448.8px;
+    height: 407.36px;
+}
+#img_leaf1 {
+    position: absolute;
+    left: 257.93px;
+    top: 110.99px;
+}
+#img_leaf2 {
+    position: absolute;
+    left: 19.22px;
+    top: 0px;
+}
+#img_leaf3 {
+    position: absolute;
+    left: 102.17px;
+    top: 198.6px;
+}
+#img_leaf4 {
+    position: absolute;
+    left: 0px;
+    top: 200.66px;
+}
+#img_leaf5 {
+    position: absolute;
+    left: 310.12px;
+    top: 253px;
+}
+.welcome_text {
+    position: absolute;
+    right: 0;
+    top: 34px;
+    width: 549px;
+    height: 340px;
+}
+.welcome_text h1 {
+    margin: 0;
+}
+.welcome_title {
+    position: absolute;
+    width: 549px;
+    height: 101px;
+    top:0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+.welcome_title span {
+    color: #499A18;
+}
+.welcome_paragraph {
+    position: absolute;
+    width: 525.44px;
+    height: 105px;
+    top: 143px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+#welcome_button_start {
+    box-sizing: border-box;
+    position: absolute;
+    width: 158px;
+    height: 44px;
+    left: 0;
+    bottom: 0;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+}
+#span1 {
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    left: 27px;
+    top: 14px;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+                        /* ABOUT BLOCK */
+#about {
+    position: absolute;
+    width: 1440px;
+    height: 666px;
+    left: 0px;
+    top: 666px;
+    background: #FFFFFF;
+}
+#about_section {
+    position: absolute;
+    width: 1222px;
+    height: 479px;
+    left: 109px;
+    top: 93px;
+}
+#houseplant_img {
+    position: absolute;
+    width: 464px;
+    height: 479px;
+    right: 0;
+}
+#about_us_section {
+    position: absolute;
+    width: 605px;
+    height: 350px;
+    left: 0;
+    top: 68px;
+}
+#about_us_p {
+    position: absolute;
+    width: 463px;
+    height: 102px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+#about_us_p span {
+    color: #E06733;
+}
+#about_us_p2 {
+    position: absolute;
+    width: 605px;
+    height: 208px;
+    left: 0;
+    top: 142px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+#service {
+    position: absolute;
+    width: 1440px;
+    height: 1300px;
+    left: 0px;
+    top: 1332px;
+    background: #EDF2EC;
+}
+#services_content {
+    position: absolute;
+    width: 1007px;
+    height: 94px;
+    left: 109px;
+    top: 40px;
+    border: 1px solid orange;
+}
+#prices {
+    position: absolute;
+    width: 1440px;
+    height: 560px;
+    left: 0px;
+    top: 2630px;
+    background: #FFFFFF;
+}
+#contacts {
+    position: absolute;
+    width: 1440px;
+    height: 550px;
+    left: 0px;
+    top: 3190px;
+    background: #EDF2EC;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 130px;
+    left: 0px;
+    top: 3740px;
+    background: #FFFFFF;
+}
