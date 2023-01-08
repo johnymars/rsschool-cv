@@ -283,8 +283,15 @@ color: #000000;
     height: 1300px;
     left: 0px;
     top: 1332px;
-
     background: #EDF2EC;
+}
+#services_content {
+    position: absolute;
+    width: 1007px;
+    height: 94px;
+    left: 109px;
+    top: 40px;
+    border: 1px solid orange;
 }
 #prices {
     position: absolute;
