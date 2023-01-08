@@ -5,9 +5,6 @@ body {
     margin: 0;
     padding: 0;
 }
-section {
-    border: 1px solid black;
-}
 html {
     position: relative;
     margin: 0 auto;
@@ -125,7 +122,6 @@ color: #000000;
     top: 62px;
 }
 .leafs {
-    border: 1px solid orange;
     position: absolute;
     width: 448.8px;
     height: 407.36px;
@@ -156,7 +152,6 @@ color: #000000;
     top: 253px;
 }
 .welcome_text {
-    border: 1px solid orange;
     position: absolute;
     right: 0;
     top: 34px;
@@ -177,7 +172,6 @@ color: #000000;
     font-size: 45px;
     line-height: 50px;
     color: #717171;
-    border: 1px solid red;
 }
 .welcome_title span {
     color: #499A18;
@@ -225,6 +219,7 @@ color: #000000;
     text-align: center;
     color: #000000;
 }
+                        /* ABOUT BLOCK */
 #about {
     position: absolute;
     width: 1440px;
@@ -232,6 +227,55 @@ color: #000000;
     left: 0px;
     top: 666px;
     background: #FFFFFF;
+}
+#about_section {
+    position: absolute;
+    width: 1222px;
+    height: 479px;
+    left: 109px;
+    top: 93px;
+}
+#houseplant_img {
+    position: absolute;
+    width: 464px;
+    height: 479px;
+    right: 0;
+}
+#about_us_section {
+    position: absolute;
+    width: 605px;
+    height: 350px;
+    left: 0;
+    top: 68px;
+}
+#about_us_p {
+    position: absolute;
+    width: 463px;
+    height: 102px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+#about_us_p span {
+    color: #E06733;
+}
+#about_us_p2 {
+    position: absolute;
+    width: 605px;
+    height: 208px;
+    left: 0;
+    top: 142px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
 }
 #service {
     position: absolute;
