@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 3870px;
+    background: #FFFFFF;;
+    scroll-behavior: smooth;  /*плавная прокрутка*/
+}
+header {
+    position: absolute;
+    width: 1440px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+    background: #EDF2EC;
+}
+.navbar {
+    position: absolute;
+    display: flex;
+    align-items: center; 
+    width: 1220px;
+    height: 50px;
+    left: 111px;
+    top: 42px;
+    border: 1px solid red;
+}
+.nav {
+    position: absolute;
+    width: 452px;
+    height: 50px;
+    left: 688.83px;
+    list-style: none;
+    border: 1px solid rgb(0, 255, 76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item a {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    order: 5;
+    margin-left: -40px;
+    text-decoration: none;
+/* identical to box height, or 312% */
+    color: #010201;
+    border: 1px dotted yellow;
+}
+.nav  .nav-item:nth-child(5) {
+    order: 1;
+}
+.nav  .nav-item:nth-child(2) {
+    order: 2;
+} 
+.nav  .nav-item:nth-child(4) {
+    order: 3;
+} 
+.nav  .nav-item:nth-child(1) {
+    order: 4;
+} 
+.nav  .nav-item:nth-child(3) {
+    order: 5;
+}
+.logo {
+    border: 1px solid rgb(0, 255, 76);
+    position: absolute;
+    width: 79.17px;
+    height: 21.04px;
+}
+.logo_vector {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+} 
+#vector1 {
+    position: absolute;
+    width: 9.92px;
+    height: 17.28px;
+    bottom: 0.05px;
+    top: 2.66px;
+}
+#vector2 {
+    position: absolute;
+    left: 1px;
+    width: 19px;
+    height: 20px;
+}
+
+#logo_plants {
+    position: absolute;
+    width: 58.13px;
+    height: 17px;
+    right: 0;
+    bottom: 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+color: #000000;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+section {
+    border: 1px solid black;
+}
